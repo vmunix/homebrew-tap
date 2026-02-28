@@ -1,17 +1,17 @@
 class Slugr < Formula
   desc "Rename files and directories to clean, URL and shell friendly slugs"
   homepage "https://github.com/vmunix/slugr"
-  version "0.1.2"
+  version "0.1.3"
   license "BSD-3-Clause"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/vmunix/slugr/releases/download/v0.1.2/slugr-x86_64-apple-darwin.tar.gz"
-      sha256 "3440c9fd0008f03412de19b528cb590e69b5eea5aa2071f49e336487c0381828"
+      url "https://github.com/vmunix/slugr/releases/download/v0.1.3/slugr-x86_64-apple-darwin.tar.gz"
+      sha256 "63b2dd13b8c0df15c776e2cb513e76344ee020f297d2979959985e050120ea4a"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/vmunix/slugr/releases/download/v0.1.2/slugr-aarch64-apple-darwin.tar.gz"
-      sha256 "9a4e6ad817adf62bde366328f78f4bc2bb271c3e9a495309395833187c82f1e8"
+      url "https://github.com/vmunix/slugr/releases/download/v0.1.3/slugr-aarch64-apple-darwin.tar.gz"
+      sha256 "1c432c15455e831a1675b1ac54902e8192b052965cb2019d3fea4de71d286f5c"
     end
   end
 
