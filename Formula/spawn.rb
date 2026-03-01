@@ -1,8 +1,8 @@
 class Spawn < Formula
   desc "Sandboxed AI coding agents on macOS"
   homepage "https://github.com/vmunix/spawn"
-  url "https://github.com/vmunix/spawn/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "1fd61f2d5b634ba923764b9d65e6586a1396853be6a2a8268a9a8a0e15d42ef4"
+  url "https://github.com/vmunix/spawn/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "01fb5b37a91a36841a2ccc1de00c0e82912bb69fe972ccd3fd3d9600120302db"
   license "MIT"
 
   depends_on :macos
